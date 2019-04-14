@@ -1,0 +1,119 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: rgba(0,0,0,0.3);
+	height: auto;
+}
+
+
+header
+{
+	width: 100%;
+	background: #4E94AB;
+	color: red;
+}
+
+#btn-menu
+{
+	display: none;
+}
+
+header label
+{
+	display: block;
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding:10px;
+	border-right: 1px solid #fff;
+}
+
+
+header label:hover
+{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+.menu ul
+{
+	margin 0;
+	list-style: none;
+	padding: 0;
+	/*coloca e una linea las opciones de menu*/
+	display: flex;
+	/*justify-content: flex-end; posiciona las opciones de menu hacia la derecha*/
+	/*justify-content: center; *posiciona las opciones de menu hacia centro*/
+	/*flex-direction: row; establece una fila*/
+}
+
+.menu li
+{
+	/*Establece el tamano de las opciones de menu
+	flex-grow: 1;*/
+	border-right: 1px solid #fff;
+}
+
+.menu li:hover
+{
+	background:rgba(0,0,0,0.3);
+}
+
+.menu li a
+{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.imagen
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 25px; 
+	height: 25px;
+}
+
+@media (max-width: 768px)
+{
+	header label
+	{
+		display: block;
+	}
+
+	.menu
+	{
+		position: absolute;
+		background: #4E94AB;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+
+	.menu ul
+	{
+		flex-direction: column;
+	}
+
+	.menu li
+	{
+		border-top: 1px solid #fff;
+	}
+
+	#btn-menu:checked ~ .menu
+	{
+		margin: 0;
+	}
+	
+}
+
+.cabecera
+{
+	width: 1500px;
+	height: 100px;
+	background-color: #fff;
+}
+

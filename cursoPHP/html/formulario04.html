@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Operaciones con Registros</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilos04.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	</head>
+	<body>
+	<form action="" method="POST" id="formulario" name="formulario">
+  <div class="row w-100 justify-content-center">
+    <div class="col-md-8 card card-content">
+			<div class="row">
+				<div class="col-4 pl-0 mb-1">
+					<h4>
+						Registrar Plan de Cuentas <i class="fa text-primary fa-briefcase" aria-hidden="true"></i>
+					</h4>
+				</div>
+				<div class="col-8 float-left">
+					<div class="row">
+						<input id="buscar-tabla" type="text" class="form-control" placeholder="Buscar" aria-label="Input group example" aria-describedby="btnGroupAddon">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p1-0 mb-1">
+				</div>
+				<div class="col-12 p1-0 mb-1">
+				</div>
+			</div>
+      <div class="row">
+        <div class="p-1 col-md-4">
+          <label class=" text-secondary" for="id_plancuenta">Código</label>
+          <input class="form-control required" type="text" name="id_plancuenta" id="id_plancuenta" placeholder="código plan cuenta">
+        </div>
+        <div class="p-1 col-md-8">
+          <label class=" text-secondary" for="nombre_cuenta">Nombre Plan de Cuenta</label>
+          <input class="form-control required" type="text" name="nombre_cuenta" id="nombre_cuenta" placeholder="nombre plan de cuenta">
+        </div>
+
+        <div class="col-md-4">
+            <button class="form-control btn btn-primary action" data-action="guardar"  type="submit" name="guardar" id="guardar" >Guardar
+              <i class="fas fa-save"></i>
+            </button>
+        </div>
+        <div class="col-md-4">
+            <a href="../php/listar_cuentas.php" class="form-control btn btn-primary" data-action="listar" name="listar"  id="listar">Listar
+              <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </div>
+				<div class="col-md-4">
+            <a href="#" value="id_plancuenta" class="form-control btn btn-primary action" data-action="eliminar" name="eliminar" id="eliminar">Eliminar
+              <i class="fas fa-sign-out-alt"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+		<!--<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>!-->
+  	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../js/manejodatos.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="messages_es.js" type="text/javascript"></script>
+		<script>
+		  $.validate({
+		    lang: 'es'
+		  });
+		</script>
+	</body>
+</html>

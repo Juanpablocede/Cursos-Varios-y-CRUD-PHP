@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Operadores</title>
+</head>
+	<body>
+		<header>
+			
+		</header>
+
+		<script type="text/javascript">
+			var numero01 = 10; //Asignacion
+			var numero02 = 15; 
+			var afirmacion = "si";
+			var negacion = "no";
+
+			var texto01 = "Hola";
+			var texto02 = "Juan Pablo";
+
+			//concatenar  texto
+			var texto03 = texto01 + " " + texto02;
+			document.write(texto03);
+			var texto03 = texto01.concat(" ").concat(texto02);
+
+			var operacion = (numero01 + numero02); // Matematico o aritmetico
+
+			if ( numero01 == 10) //Comparacion
+			{
+				document.write("Cumple la condicion numero<br>");
+			}
+
+			/*
+				== Igual
+				=== Exactamente igual
+				!= Diferente
+			*/
+
+			//Operadores logico
+			if ((afirmacion == "si") && (negacion == "no")) // &&  AND (Y)
+			{
+				document.write("cumple afirmacion y negacion<br>");
+			}
+
+			if ((afirmacion == "si") || (negacion == "no")) // ||  OR (O)
+			{
+				document.write("cumple afirmacion y negacion<br>");
+			}
+
+		</script>
+	</body>
+</html>

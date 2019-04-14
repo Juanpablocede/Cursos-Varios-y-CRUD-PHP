@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Formulario 01</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		<div class="row w-100">
+			<div class="col-12 centrado">
+				<h1>Vista HTML con Javascript</h1>
+			</div>
+		</div>
+		<div class="row w-100 justify-content-center">
+			<div class="col-6 card vista01">
+				<div class="row">
+					<div class="col-12">
+						<input class="form-control" type="text" name="primernumero" id="primernumero" placeholder="Ingrese el primer numero">
+					</div>
+					<div class="col-12">
+						<input class="form-control" type="text" name="segundonumero" id="segundonumero" placeholder="Ingrese el segundo numero">
+					</div>
+					<div class="col-12">
+							<input class="form-control" type="text"  name="resultado" id="resultado" placeholder="resultado">
+					</div>
+					<div class="col-3">
+						<select class="largo form-control" name="operacion" id="operacion">
+							<option value="operacion" selected disabled>Operación</option>
+							<option value="sumar">Sumar</option>
+							<option value="restar">Restar</option> 
+							<option value="multiplicar">Multiplicar</option>
+							<option value="dividir">Dividir</option>
+							<option value="no_aplica">No Aplica</option>
+						</select>
+					</div>
+					<div class="col-4">
+						<select class="form-control" name="mes" id="mes" onchange="cargar_dias()">
+							<option value="mes" selected disabled>Mes</option>
+							<option value="enero">Enero</option>
+							<option value="febrero">Febrero</option>
+							<option value="marzo">Marzo</option>
+							<option value="abril">Abril</option>
+							<option value="mayo">Mayo</option>
+							<option value="junio">Junio</option>
+							<option value="julio">Julio</option>
+							<option value="agosto">Agosto</option>
+							<option value="septiembre">Septiembre</option>
+							<option value="octubre">Octubre</option>
+							<option value="noviembre">Noviembre</option>
+							<option value="diciembre">Diciembre</option>
+						</select>
+					</div>
+					<div class="col-2">
+						<select class="form-control" name="diasmes" id="diasmes">
+							<option selected disabled>Día</option>
+						</select>
+					</div>
+					<div class="col-3">
+						<select class="form-control" name="ano" id="ano">
+							<option selected disabled>Año</option>
+						</select>
+					</div>
+					<div class="col-4">
+						<button class="form-control btn btn-primary" type="button"  id="boton" onclick="operacion()">Enviar</button>  
+					</div>
+				</div>						
+			</div>
+		</div>
+		<!--<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>!-->
+  		<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../js/resultado.js"></script>
+
+	</body>
+</html>

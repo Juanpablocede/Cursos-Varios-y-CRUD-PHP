@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+html,body
+{
+	color: #3F3F3F;
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.colorcito
+{
+	color:red;
+}
+
+.card.vista01
+{
+	border: solid;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	padding: 3.125em;
+	padding-left: 3.825em;
+	padding-right: 3.825em;
+	width: 200px;
+}
+
+.form-control
+{
+	margin-bottom: 15px;
+}
+
+.w-100
+{
+	margin: 0 !important;
+}
+
+.centrado h1
+{
+	text-align: center;
+}
+
+.card-table{
+	padding: 1em 3em 1em 3em!important;
+	-moz-box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.09);
+	box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.09);
+	border: none!important;
+}
+
+.card-content{
+	padding: 2em 5em 3em 5em!important;
+	-moz-box-shadow: 0 8px 28px 0 rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.09);
+	box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.09);
+	border: none!important;
+}

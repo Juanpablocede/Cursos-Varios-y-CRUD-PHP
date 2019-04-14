@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Estructura de Control</title>
+</head>
+	<body>
+		<header>
+			
+		</header>
+		<script type="text/javascript">
+			//Estructura if
+			var mostrarmensaje = true;
+			if (mostrarmensaje)
+			{
+				document.write("El valor es verdadero<br>");
+			}
+			else
+			{
+				document.write("El valor es falso <br>");
+			}
+
+			var numero = 10;
+			if (numero > 7)
+			{
+				document.write("Se cumple la condicion <br>");
+			}
+			else
+			{
+				document.write("No se cumple la condicion <br>");	
+			}
+
+			//Estructura for
+			/*
+			for (inicio;condicion;incremento o decremento)
+			{
+	
+			}
+			*/
+
+			var meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+			for (var i=0; i<=11; i++)
+			{
+				document.write(meses[i]);
+			}
+
+			//Estructura de  for (indice in array)
+			//for ( indice in array)
+			for ( i in meses)
+			{
+				document.write(meses[i]);
+			}
+
+			//Estructura while
+			/*while (condicion)
+			{
+				instrucciones
+			}*/
+			var i=0;
+			while (i<=11)
+			{
+				document.write(meses[i]);
+				var i = i + 1;
+			}
+
+		</script>
+	</body>
+</html>

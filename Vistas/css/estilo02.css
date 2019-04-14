@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,body
+{
+	font-family: 'Lato', sans-serif;
+	color: #3F3F3F;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar
+{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.logo
+{
+	width: 150px;
+}
+
+.w-100
+{
+	margin: 0 !important;
+}
+
+.login
+{
+	color: #1696A2;
+	font-size: 18px;
+	text-decoration: none !important;
+	float: right;
+	padding-top: 0.9375em;
+}
+
+.login:hover
+{
+	color: #1696A2;
+}
+
+.mini-login
+{
+	color: #1696A2;
+	text-decoration: none !important;
+}
+
+.bg
+{
+	background-color: #F4F8F7;
+	padding-top: 5.375em;
+	padding-bottom: 14em;
+}
+
+.subtitle
+{
+	line-height: 26px;
+	font-size: 18px;
+}
+
+.card.vista
+{
+	border: none;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	padding: 3.125em;
+	padding-left: 3.825em;
+	padding-right: 3.825em;
+	margin-top: -13%;
+}
+
+.form-control
+{
+	margin-bottom: 15px;
+}
+
+.form-control:focus
+{
+ 	box-shadow: none;
+ 	border-color: #189f80;
+}
+
+.ap-input-icon svg
+{
+	top: 40%;
+}

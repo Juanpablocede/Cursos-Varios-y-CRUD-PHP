@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,body
+{
+	font-family: 'Lato', sans-serif;
+	color: #3F3F3F;
+}
+
+.vista01
+{
+	border-bottom: 1px solid #e0e0e0;
+	border: none;
+}
+
+.w-100
+{
+	margin: 0 !important;
+}
+
+.imagenlogo
+{
+	width: 150px;
+	margin-left: 60px;
+	background-color: #fff;
+}
+
+.vista01columna02fila01
+{
+	color: #BDBDBD;
+	margin-top: 10px;
+}
+
+.vista01columna02fila02 a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.vista01columna02fila02
+{
+	margin-top: -15px;
+}
+
+#vista01columna02fila02 a:hover
+{
+	border-bottom: red;
+}
+
+.vista02
+{
+	background-color: #F4F8F7;
+	border: none;
+	height: 288px;
+}
+
+.candado
+{
+	width: 20px;
+	margin-left: 5px;
+	background-color: #fff;
+	margin-top: -10px;
+}
+
+.textocolor
+{
+	color: #189f80;
+}
+
+h2
+{
+	font: bold 12px "Trebuchet MS";
+	font-size: 20px;
+}
+
+.parrafo
+{
+	margin-top: 50px;
+	margin-left: 360px;
+	margin-right: 300px;
+	text-align: left;	
+}
+
+.vista03
+{
+	justify-content: center;
+}
+.card.vista03columna01
+{
+	border: none;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	padding: 3.125em;
+	padding-left: 3.825em;
+	padding-right: 3.825em;
+	margin-top: -35px;
+}
+
+.form-control
+{
+	margin-bottom: 15px;
+}
+
+.begin
+{
+	/*text-decoration: none;
+	color: #189f80;*/
+	margin-left: 20px;
+}
+
+.vista03columna01 a
+{
+	text-decoration: none;
+	color: #189f80;
+}
+
+.vista04
+{
+	padding-top: 20px;
+	height: 80px;
+	border: none;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.boton01
+{
+	background-color: #fff;
+}
+
+.boton02
+{
+	background-color: #BDBDBD;
+	color: #fff;
+	border-radius: 20px;
+	width:230px;
+	height:40px;
+	transition: color .28s ease;
+}
+
+.back
+{
+	width: 25px;
+	height: 25px;
+}
+
+.logocentro
+{
+	margin: auto;
+	display:block;
+	width: 30px;
+	height: 30px;
+}
+
+.vista05
+{
+	background-color: #E0E0E0;
+	padding-top: 10px;
+	border: none;
+	text-align: center;
+	height: 100px;
+}
+

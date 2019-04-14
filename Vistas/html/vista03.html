@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>verify your indetity</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo03.css">
+</head>
+<body>
+	<div class="row w-100 vista01">
+		<div class="col-3 vista01columna01">
+			<img class="imagenlogo" src="../imagenes/logo.png">
+		</div>
+		<div class="col-9 vista01columna02">
+			<div class="row vista01columna02fila01">
+				<div class="col-3">
+					<label>STEP 1</label>
+				</div>
+				<div class="col-3">
+					<label>STEP 2</label>
+				</div>
+				<div class="col-3">
+					<label>STEP 3</label>
+				</div>
+				<div class="col-3">
+					<label>STEP 4</label>
+				</div>
+			</div>
+
+			<div class="row vista01columna02fila02">
+				<div class="col-3">
+					<a href="#PropertyDetails">Property Details</a>
+				</div>
+				<div class="col-3">
+					<a href="#MorgagetDetopcion">Morgaget Detopcion</a>
+				</div>
+				<div class="col-3">
+					<a href="#PersonalInformation">Personal Information</a>	
+				</div>
+				<div class="col-3">
+					<a href="#Reviw">Reviw</a>	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row w-100 vista02">
+		<div class= "col-12 vista02columna01">
+			<div class="parrafo">
+				<h2>Verify your identity <img class="candado" src="../imagenes/candado.png"></h2>
+				<p>As a registered mortgage dealer, Moragage is required by federal law to callect your social insurance number.</p>
+				<p>This information is used to provent XX from from getting access to XX. You can learn more about these requirements here:</p>
+				<p class="textocolor">https://www.fsco.gov.on.ca/en/morgaget/Pages/default.aspx</p>
+			</div>
+		</div>
+	</div>	
+
+	<div class="row w-100 vista03">
+		<div class="col-7 card vista03columna01">
+			<form action="billing">
+				<div class="row">
+					<div class="col-12">
+						<label class="textotitulo">Data of Birth</label>
+					</div>
+					<div class="col-5">
+						<select class="form-control" name="selectmes">
+							<option value="month" selected disabled>Month</option>
+							<option value="january">January</option> 
+							<option value="february">February</option>
+							<option value="march">March</option>
+							<option value="april">April</option>
+							<option value="may">May</option>
+							<option value="june">June</option>
+							<option value="july">July</option>
+							<option value="august">August</option>
+							<option value="september">September</option>
+							<option value="october">October</option>
+							<option value="november">November</option>
+							<option value="december">December</option>
+						</select>
+					</div>
+					<div class="col-3">
+						<select class="form-control" name="selectdia" id="selectdia">
+							<option value="Day" selected disabled>Day</option>
+							<option value="01">01</option>
+							<option value="02">02</option>
+							<option value="03">03</option>
+							<option value="04">04</option>
+							<option value="05">05</option>
+							<option value="06">06</option>
+							<option value="07">07</option>
+						</select>
+					</div>
+					<div class="col-4">
+						<select class="form-control" name="selectano">
+							<option value="year" selected disabled>Year</option>
+							<option value="2000">2000</option>
+							<option value="2001">2001</option>
+							<option value="2002">2002</option>
+							<option value="2003">2003</option>
+							<option value="2004">2004</option>
+							<option value="2005">2005</option>
+							<option value="2006">2006</option>
+						</select>
+					</div>
+					<div class="col-12">
+						<label>Social Insurance Number</label><a class="begin" href="#begin">How is my SIN Begin used?</a>
+					</div>
+					<div class="col-4">
+						<input class="form-control" type="text" name="numero01" id="numero01" placeholder="XXX">
+					</div>
+					<div class="col-4">
+						<input class="form-control" type="text" name="numero02" id="numero02" placeholder="XXX">
+					</div>
+					<div class="col-4">
+						<input class="form-control" type="text" name="numero03" id="numero03" placeholder="XXX">
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="row w-100 vista04">
+		<div class="col-12 vista04columna01">
+			<img class="back" src="../imagenes/back.png"><button class="btn boton01" type="submit">Back</button>
+			<button class="btn boton02" type="submit">Save & Continue</button>
+		</div>
+	</div>	
+	<div class="row w-100 vista05">
+		<div class="col-12 vista05file01">
+			<img class="logocentro" src="../imagenes/mg.png">
+		</div>
+		
+		<div class="col-12 vista05fila02">
+				<label class="texto01">Terms & Conditions</label>
+				<label class="texto02">Disclosure Library</label>
+				<label class="texto03">Contact Us</label>
+				<label class="texto04">FAQ</label>
+		</div>
+		<div class="col-12 vista05fila03">
+			<label>2018 Moregidge All rights reserved</label>
+		</div>
+	</div>
+
+<!--
+<script src="https://cdn.jsdelivr.net/npm/places.js@1.6.0"></script>
+
+<script>
+  var placesAutocomplete = places({
+    container: document.querySelector('#address-input')
+  });
+</script>
+!-->
+<script type="text/javascript" src="../js/vista03.js"></script>
+
+</body>
+</html>
+

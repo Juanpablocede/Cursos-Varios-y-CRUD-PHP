@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,body
+{
+	font-family: 'Lato', sans-serif;
+	color: #3F3F3F;
+}
+
+.colorcito
+{
+	color:red;
+}
+
+.card.vista01
+{
+	border: solid;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+	padding: 3.125em;
+	padding-left: 3.825em;
+	padding-right: 3.825em;
+	width: 200px;
+}
+
+.form-control
+{
+	margin-bottom: 15px;
+}
+
+.w-100
+{
+	margin: 0 !important;
+}
+
+.centrado h1
+{
+	text-align: center;
+}

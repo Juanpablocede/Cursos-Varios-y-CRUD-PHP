@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Property Details</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo02.css">
+</head>
+<body>
+	<div class="row w-100 navbar">
+		<div class="col-12">
+			<img class="logo" src="../imagenes/logo.png">
+			<a class="login" href="#login">Log In</a>
+		</div>
+	</div>
+
+	<div class="row w-100 bg justify-content-center">
+		<div class="col-7">
+			<h2>Property Details</h2>
+			<p class="subtitle">Congratulations on your new home. Let’s get you moved in as soon as possible. In order to accurately fill out your application, let’s talk about your future home. </p>
+		</div>
+	</div>
+
+	<div class="row w-100 justify-content-center">
+		<div class="col-7 card vista">
+			<form action="billing">
+				<div class="row">
+					<div class="col-12">
+						<label class="font-weight-bold">What is the property address?</label>
+					</div>
+					<div class="col-12">
+						<input class="form-control" type="search" id="address-input" placeholder="Address Line 1" />
+					</div>
+					<div class="col-12">
+						<input class="form-control" type="text" name="line2" id="line2" placeholder="Address Line 2">
+					</div>
+					<div class="col-6">
+						<input class="form-control" type="text" name="city" id="city" placeholder="City">
+					</div>
+					<div class="col-6">
+						<input class="form-control" type="text" name="province" id="province" placeholder="Province">
+					</div>
+					<div class="col-6">
+						<input class="form-control" type="text" name="pcode" id="pcode" placeholder="Postal Code">
+					</div>
+					<div class="col-6">
+						<input class="form-control" type="text" name="country" id="country" placeholder="Country">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/places.js@1.6.0"></script>
+<script>
+  var placesAutocomplete = places({
+    container: document.querySelector('#address-input')
+  });
+</script>
+</body>
+</html>

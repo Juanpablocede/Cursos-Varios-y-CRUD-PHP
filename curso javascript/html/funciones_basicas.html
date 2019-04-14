@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Funciones Basicas</title>
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		<script type="text/javascript">
+			//Calcular la longitud de una cadena de texto
+			var nombre = "Juan Pablo Cedeño";
+			var longitud = nombre.length;
+			document.write("la longitud del nombres :" + longitud + "<br/>");
+
+			//concatenar cadenas textos y variables numericas
+			var mensaje01 = "Hola";
+			var mensaje02 = "Mundo...";
+			var numero01 = 7;
+
+			var mensaje03 = mensaje01 + " "+ mensaje02 + numero01;
+			document.write(mensaje03 + "<br />");
+
+			//Transformar caracteres de textos a mayusculas
+			var nombre = "Juan pablo Cdeño";
+			var nombremayuscula = nombre.toUpperCase();
+			document.write(nombremayuscula + "<br/>");
+
+			//TRansformar caracteres  de textos a minusculas
+			var nombre = "JUAn Pablo CEdeño";
+			var nombreminuscula = nombre.toLowerCase();
+			document.write(nombreminuscula + "<br />");
+			
+			//Obtener caracter que se encuentra en la posicion indicada
+			var mensaje = "Obtener caracter";
+			var letra = mensaje.charAt(2);
+			document.write(letra + "<br/>");
+
+			//Introducir valor por pantalla
+			var opcion = prompt("Introduzca su nombre:");
+
+			//Calcular posicion en la que se encuentra un caracter indicado
+			var mensaje = "Juan Pablo";
+			var posicion = mensaje.indexOf("c"); // Si no se encuentra el caracter buscado devuelve el valor de -1
+			document.write("La posicion de la letra es: " + posicion + "<br/>");
+			if (posicion != -1)
+			{
+				document.write("La posicion de la letra es: " + posicion + "<br/>");
+			}
+			else
+			{
+				document.write("La letra no fue ubicada en el texto <br>");
+			}
+
+			//Extraer una porcion de una cadena de texto
+			var mensaje = "Juan Pablo";
+			var porcion = mensaje.substring(3,7);
+			document.write(porcion + "<br/>");
+
+			//Convierte una cadena de texto en array
+			var nombre = "Juan Pablo Cedeño";
+			var arreglo = nombre.split(" ");
+
+			for (var i=0; i<arreglo.length; i++)
+			{
+				document.write(arreglo[i] + "\n");
+			}
+			//Si quieres que el arreglo sea cada letra del texto debe colocarse el split("")
+			var nombre = "Juan Pablo Cedeño";
+			var arreglo = nombre.split("");
+
+			for (var i=0; i<arreglo.length; i++)
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			//Concatenar elemento a un arreglo
+			var arreglo = [1,2,3,4,5];
+			var arreglo1 = arreglo.concat([6,7,8,9,10]);
+			document.write(arreglo1 + "<br />");
+
+			//Une los elementos de un array en una cadena de texto
+			var mensaje1 = ["Juan","Pablo","Cedeño"];
+			var nombre = mensaje1.join(" ");
+			document.write(nombre + "<br />");
+
+			//Elimina el ultimo elemento de un array
+			var arreglo = [1,2,3,4,5];
+			var ultimo = arreglo.pop();
+			for (var i=0; i<arreglo.length; i++ )
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			// Añade un elemento al final del array
+			var arreglo = [1,2,3,4,5,6];
+			var ultimo = arreglo.push(7);
+			for (var i=0; i<arreglo.length; i++ )
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			// Elimina un elemento al inicio del array
+			var arreglo = [1,2,3,4,5];
+			var primero = arreglo.shift();
+			for (var i=0; i<arreglo.length; i++ )
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			//Añade un elemento al inicio del array
+			var arreglo = [1,2,3,4,5];
+			var primero = arreglo.unshift(0);
+			for (var i=0; i<arreglo.length; i++ )
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			//Modifica un array colocando sus elementos en orden inverso
+			var arreglo = ["a","e","i","o","u"];
+			arreglo.reverse();
+			for (var i=0; i<arreglo.length; i++ )
+			{
+				document.write(arreglo[i] + "\n");
+			}
+
+			//Devuelve el numero original con tantos decimales se indique
+			var numero = 12345.67890;
+			numero.toFixed(2);
+			document.write(numero + "<br>");
+
+			
+			function operacion(num01,num02)
+			{
+				resultado = num01 + num02;
+				return(resultado); 
+			}
+
+			var numero01 = 10;
+			var numero02 = 35;
+
+			var resultado = 0;
+			operacion(numero01,numero02);
+			document.write(resultado);
+
+
+
+
+		</script>
+
+	</body>
+</html>

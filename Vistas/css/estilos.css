@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,body
+{
+	height: 100%;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.titulo
+{
+	padding: 20px;
+}
+
+
+#contenido
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imagenlado02 
+{
+	background:url(../imagenes/oficina01.jpg); 
+	background-attachment:fixed; 
+	background-repeat: no-repeat; 
+	background-position: center;
+}
+
+
+.logo
+{
+	margin-left: 30px;
+	height: 100px;
+	width: 230px;
+}
+
+.login 
+{
+	height: 44px;
+	width: 94px;
+	color: #555555;
+	font-family: Lato;
+	font-size: 36px;
+	line-height: 44px;
+	margin-bottom: 0px;
+}
+
+.enter-your-details-b 
+{
+	height: 25px;
+	width: 456px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 23px;
+	margin-top: 0px;
+}
+
+.Check01
+{
+	margin-left: 0px;
+	color: #777777;
+	font-family: Lato;
+	padding-top: 0px;
+}	
+
+
+.boton01
+{
+	margin-left: 60px;
+	color: #0097a7;
+	font-family: Lato;
+	border-style: none;
+	background-color: White;
+	padding-top: 0px;
+}
+
+
+.boton02
+{
+	position: relative;
+	top: 80px; 
+	left: 30%;
+	font-size: 18px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: none;
+	border-radius: 20px;
+	width:189px;
+	height:43px;
+	background-color: #21CE99; /*rgb(55 218 144 0.5);*/
+	color: white;
+	font-size: 16px;
+}
+
+
+.boton03
+{
+	position: relative;
+	top: 80px; 
+	left: 30%;
+	border-radius: 20px;
+	width:250px;
+	height:43px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	background-color: White;
+}
+
+.boton04
+{
+	position: relative;
+	top: 80px; 
+	left: 30%;
+	border-radius: 20px;
+	width:250px;
+	height:43px;
+	color: #777777;
+	font-family: Lato;
+	font-size: 16px;
+	background-color: white;
+}
+
+.boton05
+{
+	background-color: white;
+	border-style: none;
+	font-size: 16px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 5px;
+	color: #0097a7;
+}
+
+.margen
+{
+	/*margin-left: 80px;*/
+	padding-left: 110px;
+	padding-top: 50px;
+}
+
+.form-group
+{
+	margin-top: 10px;
+}
+
+.form-control
+{
+	width: 500px;
+}
+
+.entrada
+{
+	margin-top: 0px;
+}
+.pie
+{
+	/*margin-left: 80px;*/
+	padding-left: 110px;
+	padding-top: 170px;
+}
+
+.logogoogle
+{
+	width: 40px;
+	height: 30px;
+	margin-left: 0px;
+	background-position: 0px;
+}
+
+.logofacebook
+{
+	width: 40px;
+	height: 30px;
+	margin-left: 0px;
+	background-position: 0px;
+}
+
+.una
+{
+	background-position: center;
+}
+
+.raya
+{
+	
+	margin-left: 0px;
+	color: red;
+}
